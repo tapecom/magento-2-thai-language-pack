@@ -3275,7 +3275,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Price","ราคา",module,Magento_Checkout
 "Qty","จำนวน",module,Magento_Checkout
 "Subtotal","ผลรวมย่อย",module,Magento_Checkout
-"Continue Shopping","Continue Shopping",module,Magento_Checkout
+"Continue Shopping","เลือกซื้อสินค้าต่อ",module,Magento_Checkout
 "Clear Shopping Cart","Clear Shopping Cart",module,Magento_Checkout
 "Update Shopping Cart","อัพเดทตะกร้าสินค้า",module,Magento_Checkout
 "Update Cart","อัพเดท ตะกร้าสินค้า",module,Magento_Checkout
@@ -5243,7 +5243,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Are you sure you want to delete this item?","Are you sure you want to delete this item?",module,Magento_Customer
 "Addresses","Addresses",module,Magento_Customer
 "Account Dashboard","Account Dashboard",module,Magento_Customer
-"Edit Account Information","Edit Account Information",module,Magento_Customer
+"Edit Account Information","แก้ไขข้อมูลส่วนตัว",module,Magento_Customer
 "Password forgotten","Password forgotten",module,Magento_Customer
 "My Dashboard","My Dashboard",module,Magento_Customer
 "You are signed out","You are signed out",module,Magento_Customer
@@ -8420,7 +8420,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Back to Select Addresses","Back to Select Addresses",module,Magento_Multishipping
 "For successfully order items, you'll receive a confirmation email including order numbers, tracking information and more details.","For successfully order items, you'll receive a confirmation email including order numbers, tracking information and more details.",module,Magento_Multishipping
 "Successfully ordered","Successfully ordered",module,Magento_Multishipping
-"Continue Shopping","Continue Shopping",module,Magento_Multishipping
+"Continue Shopping","เลือกซื้อสินค้าต่อ",module,Magento_Multishipping
 "We can't complete your order because you don't have a payment method set up.","We can't complete your order because you don't have a payment method set up.",module,Magento_Multishipping
 "Please choose a payment method.","Please choose a payment method.",module,Magento_Multishipping
 "Multishipping Settings Section","Multishipping Settings Section",module,Magento_Multishipping
@@ -8769,7 +8769,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Contact Us","ติดต่อเรา",module,Magento_NegotiableQuote
 "Your quote number is: %1.","Your quote number is: %1.",module,Magento_NegotiableQuote
 "The quote has been sent to the merchant.","The quote has been sent to the merchant.",module,Magento_NegotiableQuote
-"Continue Shopping","Continue Shopping",module,Magento_NegotiableQuote
+"Continue Shopping","เลือกซื้อสินค้าต่อ",module,Magento_NegotiableQuote
 "Please specify the reason","Please specify the reason",module,Magento_NegotiableQuote
 "Dear %merchant_name,","Dear %merchant_name,",module,Magento_NegotiableQuote
 "New quote ","New quote ",module,Magento_NegotiableQuote
@@ -9977,7 +9977,7 @@ or more. <a href=""https://financing.paypal.com/ppfinportal/content/forrester"" 
 "Responsive","Responsive",module,Magento_Paypal
 "Checkout","ชำระเงิน",module,Magento_Paypal
 "Pay","Pay",module,Magento_Paypal
-"Buy Now","Buy Now",module,Magento_Paypal
+"Buy Now","ซื้อทันที",module,Magento_Paypal
 "PayPal","PayPal",module,Magento_Paypal
 "Installment","Installment",module,Magento_Paypal
 "PayPal Credit","PayPal Credit",module,Magento_Paypal
