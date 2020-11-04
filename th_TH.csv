@@ -887,7 +887,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Country","ประเทศ",module,Magento_Backend
 "Region/State","Region/State",module,Magento_Backend
 "ZIP/Postal Code","รหัสไปรษณีย์",module,Magento_Backend
-"City","เมือง",module,Magento_Backend
+"City","เขต/อำเภอ",module,Magento_Backend
 "Street Address","ที่อยู่",module,Magento_Backend
 "Street Address Line 2","ที่อยู่ เพิ่มเติม",module,Magento_Backend
 "VAT Number","เลขประจำตัวผู้เสียภาษี",module,Magento_Backend
@@ -1470,7 +1470,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Last Name","นามสกุล",module,Magento_Braintree
 "Company","Company",module,Magento_Braintree
 "Address","Address",module,Magento_Braintree
-"City","เมือง",module,Magento_Braintree
+"City","เขต/อำเภอ",module,Magento_Braintree
 "State/Province","จังหวัด",module,Magento_Braintree
 "Please select region, state or province","Please select region, state or province",module,Magento_Braintree
 "Zip/Postal Code","รหัสไปรษณีย์",module,Magento_Braintree
@@ -3203,7 +3203,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 ",module,Magento_CatalogWidget
 "Shopping Cart","ตระกร้าสินค้า",module,Magento_Checkout
 "Invalid method: %1","Invalid method: %1",module,Magento_Checkout
-"City","เมือง",module,Magento_Checkout
+"City","เขต/อำเภอ",module,Magento_Checkout
 "Country","ประเทศ",module,Magento_Checkout
 "State/Province","จังหวัด",module,Magento_Checkout
 "Zip/Postal Code","รหัสไปรษณีย์",module,Magento_Checkout
@@ -3266,10 +3266,10 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "DB exception","DB exception",module,Magento_Checkout
 "Message","ข้อ​ความ",module,Magento_Checkout
 "Print receipt","Print receipt",module,Magento_Checkout
-"Apply Discount Code","Apply Discount Code",module,Magento_Checkout
-"Enter discount code","Enter discount code",module,Magento_Checkout
-"Apply Discount","Apply Discount",module,Magento_Checkout
-"Cancel Coupon","Cancel Coupon",module,Magento_Checkout
+"Apply Discount Code","โค้ดส่วนลด",module,Magento_Checkout
+"Enter discount code","กรอกโค้ดส่วนลด",module,Magento_Checkout
+"Apply Discount","ใช้โค้ด",module,Magento_Checkout
+"Cancel Coupon","ยกเลิกโค้ด",module,Magento_Checkout
 "Shopping Cart Items","Shopping Cart Items",module,Magento_Checkout
 "Item","รายการ",module,Magento_Checkout
 "Price","ราคา",module,Magento_Checkout
@@ -3331,10 +3331,10 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Place Order","สั่งสินค้า",module,Magento_Checkout
 "Forgot an Item?","Forgot an Item?",module,Magento_Checkout
 "Edit Your Cart","Edit Your Cart",module,Magento_Checkout
-"Ship Here","Ship Here",module,Magento_Checkout
-"Ship To:","Ship To:",module,Magento_Checkout
+"Ship Here","จัดส่งที่นี่",module,Magento_Checkout
+"Ship To:","จัดส่งที่:",module,Magento_Checkout
 "edit","edit",module,Magento_Checkout
-"Order Summary","Order Summary",module,Magento_Checkout
+"Order Summary","สรุปรายการสั่งซื้อ",module,Magento_Checkout
 "View and Edit Cart","View and Edit Cart",module,Magento_Checkout
 "View Details","ดูรายละเอียด",module,Magento_Checkout
 "Field ","Field ",module,Magento_Checkout
@@ -3342,9 +3342,9 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Provided Zip/Postal Code seems to be invalid.","Provided Zip/Postal Code seems to be invalid.",module,Magento_Checkout
 " Example: "," Example: ",module,Magento_Checkout
 "If you believe it is the right one you can ignore this notice.","If you believe it is the right one you can ignore this notice.",module,Magento_Checkout
-"New Address","New Address",module,Magento_Checkout
+"New Address","เพิ่มที่อยู่ใหม่",module,Magento_Checkout
 "Are you sure you would like to remove this item from the shopping cart?","Are you sure you would like to remove this item from the shopping cart?",module,Magento_Checkout
-"Review & Payments","Review & Payments",module,Magento_Checkout
+"Review & Payments","ยืนยันและชำระเงิน",module,Magento_Checkout
 "Select a new payment method","Select a new payment method",module,Magento_Checkout
 "Shipping","การจัดส่ง",module,Magento_Checkout
 "Save Address","Save Address",module,Magento_Checkout
@@ -3373,7 +3373,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Send Payment Failed Email Copy Method","Send Payment Failed Email Copy Method",module,Magento_Checkout
 "Summary","Summary",module,Magento_Checkout
 "Order Total","Order Total",module,Magento_Checkout
-"Shipping Address","Shipping Address",module,Magento_Checkout
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_Checkout
 "We'll send your order confirmation here.","We'll send your order confirmation here.",module,Magento_Checkout
 "Payment","Payment",module,Magento_Checkout
 "Not yet calculated","Not yet calculated",module,Magento_Checkout
@@ -3393,19 +3393,19 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Recently added item(s)","Recently added item(s)",module,Magento_Checkout
 "View and edit cart","View and edit cart",module,Magento_Checkout
 "No Payment Methods","No Payment Methods",module,Magento_Checkout
-"Shipping Methods","Shipping Methods",module,Magento_Checkout
-"Select Method","Select Method",module,Magento_Checkout
+"Shipping Methods","วิธีการจัดส่ง",module,Magento_Checkout
+"Select Method","เลือกวิธีการ",module,Magento_Checkout
 "Method Title","Method Title",module,Magento_Checkout
 "Carrier Title","Carrier Title",module,Magento_Checkout
 "Next","ถัดไป",module,Magento_Checkout
 "Sorry, no quotes are available for this order at this time","Sorry, no quotes are available for this order at this time",module,Magento_Checkout
-"Item in Cart","Item in Cart",module,Magento_Checkout
-"Items in Cart","Items in Cart",module,Magento_Checkout
+"Item in Cart","ชิ้นในตะกร้า",module,Magento_Checkout
+"Items in Cart","ชิ้นในตะกร้า",module,Magento_Checkout
 "Require Customer To Be Logged In To Checkout","Require Customer To Be Logged In To Checkout",module,Magento_Checkout
 "Maximum Display Recently Added Item(s)","Maximum Display Recently Added Item(s)",module,Magento_Checkout
 "of","of",module,Magento_Checkout
 "Something went wrong while saving the page. Please refresh the page and try again.","Something went wrong while saving the page. Please refresh the page and try again.",module,Magento_Checkout
-"You added %1 to your <a href=""%2"">shopping cart</a>.","You added %1 to your <a href=""%2"">shopping cart</a>.",module,Magento_Checkout
+"You added %1 to your <a href=""%2"">shopping cart</a>.","คุณเพิ่ม %1 ลงใน <a href=""%2"">ตะกร้าสินค้า</a>",module,Magento_Checkout
 "Please select at least one product to add to cart","Please select at least one product to add to cart",module,Magento_Checkout
 "The quote item isn't found. Verify the item and try again.","The quote item isn't found. Verify the item and try again.",module,Magento_Checkout
 "The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.","The order wasn't placed. First, agree to the terms and conditions, then try placing your order again.",module,Magento_Checkout
@@ -3877,7 +3877,7 @@ Time in seconds between the widget updates.,module,Magento_CatalogWidget
 "Re-seller ID","Re-seller ID",module,Magento_Company
 "Legal Address","Legal Address",module,Magento_Company
 "Street Address","ที่อยู่",module,Magento_Company
-"City","เมือง",module,Magento_Company
+"City","เขต/อำเภอ",module,Magento_Company
 "Country","ประเทศ",module,Magento_Company
 "State/Province","จังหวัด",module,Magento_Company
 "Please select a region, state or province.","Please select a region, state or province.",module,Magento_Company
@@ -4846,18 +4846,18 @@ new products will be created. Use this step to customize images and price for yo
 "Please correct the email address.","Please correct the email address.",module,Magento_Customer
 "We're unable to send the password reset email.","We're unable to send the password reset email.",module,Magento_Customer
 "Please enter your email.","Please enter your email.",module,Magento_Customer
-"If there is an account associated with %1 you will receive an email with a link to reset your password.","If there is an account associated with %1 you will receive an email with a link to reset your password.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","ถ้าคุณมีบัญชีที่สมัครด้วยอีเมล์ %1 คุณจะได้รับอีเมล์ที่มีลิงค์สำหรับตั้งรหัสผ่านใหม่",module,Magento_Customer
 "My Account","บัญชีของฉัน",module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.",module,Magento_Customer
 "An unspecified error occurred. Please contact us for assistance.","An unspecified error occurred. Please contact us for assistance.",module,Magento_Customer
 "A login and a password are required.","A login and a password are required.",module,Magento_Customer
 "New Password and Confirm New Password values didn't match.","New Password and Confirm New Password values didn't match.",module,Magento_Customer
 "Please enter a new password.","Please enter a new password.",module,Magento_Customer
-"You updated your password.","You updated your password.",module,Magento_Customer
+"You updated your password.","เปลี่ยนรหัสผ่านเรียบร้อยแล้ว",module,Magento_Customer
 "Something went wrong while saving the new password.","Something went wrong while saving the new password.",module,Magento_Customer
 "You deleted the address.","You deleted the address.",module,Magento_Customer
 "We can't delete the address right now.","We can't delete the address right now.",module,Magento_Customer
-"You saved the address.","You saved the address.",module,Magento_Customer
+"You saved the address.","คุณได้บันทึกที่อยู่เรียบร้อยแล้ว",module,Magento_Customer
 "We can't save the address.","We can't save the address.",module,Magento_Customer
 "No customer ID defined.","No customer ID defined.",module,Magento_Customer
 "Please correct the quote items and try again.","Please correct the quote items and try again.",module,Magento_Customer
@@ -4917,7 +4917,7 @@ new products will be created. Use this step to customize images and price for yo
 "Per Website","Per Website",module,Magento_Customer
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","We can't share customer accounts globally when the accounts share identical email addresses on more than one website.",module,Magento_Customer
 "Billing Address","Billing Address",module,Magento_Customer
-"Shipping Address","Shipping Address",module,Magento_Customer
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_Customer
 "-- Please Select --","-- โปรดเลือก-",module,Magento_Customer
 "Please enter a valid password reset token.","Please enter a valid password reset token.",module,Magento_Customer
 "The password can not begin or end with a space.","The password can not begin or end with a space.",module,Magento_Customer
@@ -5029,30 +5029,30 @@ new products will be created. Use this step to customize images and price for yo
 "Newsletters","Newsletters",module,Magento_Customer
 "You are subscribed to ""General Subscription"".","You are subscribed to ""General Subscription"".",module,Magento_Customer
 "or","or",module,Magento_Customer
-"Default Addresses","Default Addresses",module,Magento_Customer
-"Change Billing Address","Change Billing Address",module,Magento_Customer
-"You have no default billing address in your address book.","You have no default billing address in your address book.",module,Magento_Customer
-"Change Shipping Address","Change Shipping Address",module,Magento_Customer
-"You have no default shipping address in your address book.","You have no default shipping address in your address book.",module,Magento_Customer
+"Default Addresses","ค่าเริ่มต้นสำหรับที่อยู่",module,Magento_Customer
+"Change Billing Address","เปลี่ยนที่อยู่สำหรับออกใบเสร็จรับเงิน",module,Magento_Customer
+"You have no default billing address in your address book.","คุณยังไม่ได้เลือกที่อยู่หลักสำหรับออกใบเสร็จรับเงิน",module,Magento_Customer
+"Change Shipping Address","เปลี่ยนที่อยู่สำหรับจัดส่งสินค้า",module,Magento_Customer
+"You have no default shipping address in your address book.","คุณยังไม่ได้เลือกที่อยู่หลักสำหรับจัดส่งสินค้าในสมุดที่อยู่",module,Magento_Customer
 "Additional Address Entries","Additional Address Entries",module,Magento_Customer
-"Delete Address","Delete Address",module,Magento_Customer
+"Delete Address","ลบที่อยู่",module,Magento_Customer
 "You have no other address entries in your address book.","You have no other address entries in your address book.",module,Magento_Customer
 "* Required Fields","ข้อมูลที่จำเป็นต้องกรอก",module,Magento_Customer
-"Address","Address",module,Magento_Customer
+"Address","ที่อยู่",module,Magento_Customer
 "Street Address","ที่อยู่",module,Magento_Customer
 "Street Address %1","Street Address %1",module,Magento_Customer
 "VAT Number","เลขประจำตัวผู้เสียภาษี",module,Magento_Customer
-"City","เมือง",module,Magento_Customer
+"City","เขต/อำเภอ",module,Magento_Customer
 "State/Province","จังหวัด",module,Magento_Customer
 "Please select a region, state or province.","Please select a region, state or province.",module,Magento_Customer
 "Zip/Postal Code","รหัสไปรษณีย์",module,Magento_Customer
 "Country","ประเทศ",module,Magento_Customer
-"It's a default billing address.","It's a default billing address.",module,Magento_Customer
-"Use as my default billing address","Use as my default billing address",module,Magento_Customer
-"It's a default shipping address.","It's a default shipping address.",module,Magento_Customer
-"Use as my default shipping address","Use as my default shipping address",module,Magento_Customer
-"Save Address","Save Address",module,Magento_Customer
-"Go back","Go back",module,Magento_Customer
+"It's a default billing address.","ที่อยู่นี้ ถูกใช้เป็นค่าเริ่มต้นสำหรับออกใบเสร็จรับเงิน",module,Magento_Customer
+"Use as my default billing address","ใช้ที่อยู่นี้เป็นค่าเริ่มต้นสำหรับออกใบเสร็จรับเงิน",module,Magento_Customer
+"It's a default shipping address.","ที่อยู่นี้ ถูกใช้เป็นค่าเริ่มต้นสำหรับจัดส่งสินค้า",module,Magento_Customer
+"Use as my default shipping address","ใช้ที่อยู่นี้เป็นค่าเริ่มต้นสำหรับจัดส่งสินค้า",module,Magento_Customer
+"Save Address","บันทึกที่อยู่",module,Magento_Customer
+"Go back","ย้อนกลับ",module,Magento_Customer
 "Please enter your email below and we will send you the confirmation link.","Please enter your email below and we will send you the confirmation link.",module,Magento_Customer
 "Email","อีเมล",module,Magento_Customer
 "Send confirmation link","Send confirmation link",module,Magento_Customer
@@ -5076,9 +5076,9 @@ new products will be created. Use this step to customize images and price for yo
 "Sign Up for Newsletter","Sign Up for Newsletter",module,Magento_Customer
 "Address Information","Address Information",module,Magento_Customer
 "Sign-in Information","Sign-in Information",module,Magento_Customer
-"Confirm Password","Confirm Password",module,Magento_Customer
-"Create an Account","Create an Account",module,Magento_Customer
-"Set a New Password","Set a New Password",module,Magento_Customer
+"Confirm Password","ยืนยันรหัสผ่าน",module,Magento_Customer
+"Create an Account","สร้างบัญชีผู้ใช้",module,Magento_Customer
+"Set a New Password","ตั้งรหัสผ่านใหม่",module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","You have signed out and will go to our homepage in 5 seconds.",module,Magento_Customer
 "New Customers","ลูกค้าใหม่",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","Creating an account has many benefits: check out faster, keep more than one address, track orders and more.",module,Magento_Customer
@@ -5176,7 +5176,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Please enter a number 1 or greater in this field.","Please enter a number 1 or greater in this field.",module,Magento_Customer
 "Number of Required Character Classes","Number of Required Character Classes",module,Magento_Customer
 "Number of different character classes required in password: Lowercase, Uppercase, Digits, Special Characters.","Number of different character classes required in password: Lowercase, Uppercase, Digits, Special Characters.",module,Magento_Customer
-"Minimum Password Length","Minimum Password Length",module,Magento_Customer
+"Minimum Password Length","รหัสผ่านต้องมีความยาวอย่างน้อย",module,Magento_Customer
 "Maximum Login Failures to Lockout Account","Maximum Login Failures to Lockout Account",module,Magento_Customer
 "Use 0 to disable account locking.","Use 0 to disable account locking.",module,Magento_Customer
 "Lockout Time (minutes)","Lockout Time (minutes)",module,Magento_Customer
@@ -5343,7 +5343,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Delete address","Delete address",module,Magento_Customer
 "Are you sure you want to delete the address?","Are you sure you want to delete the address?",module,Magento_Customer
 "Additional addresses","Additional addresses",module,Magento_Customer
-"State","State",module,Magento_Customer
+"State","จังหวัด",module,Magento_Customer
 "Actions","การดำเนินการ",module,Magento_Customer
 "Sorry, there has been an error processing your request. Please try again later.","Sorry, there has been an error processing your request. Please try again later.",module,Magento_Customer
 "Reset password","Reset password",module,Magento_Customer
@@ -5530,7 +5530,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Street Address","ที่อยู่",module,Magento_CustomerCustomAttributes
 "Street Address %1","Street Address %1",module,Magento_CustomerCustomAttributes
 "VAT Number","เลขประจำตัวผู้เสียภาษี",module,Magento_CustomerCustomAttributes
-"City","เมือง",module,Magento_CustomerCustomAttributes
+"City","เขต/อำเภอ",module,Magento_CustomerCustomAttributes
 "State/Province","จังหวัด",module,Magento_CustomerCustomAttributes
 "Please select a region, state or province.","Please select a region, state or province.",module,Magento_CustomerCustomAttributes
 "Zip/Postal Code","รหัสไปรษณีย์",module,Magento_CustomerCustomAttributes
@@ -5564,8 +5564,8 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Customer Address","Customer Address",module,Magento_CustomerCustomAttributes
 "Default Values","Default Values",module,Magento_CustomerCustomAttributes
 "Fax","Fax",module,Magento_CustomerCustomAttributes
-"Default Billing Address","Default Billing Address",module,Magento_CustomerCustomAttributes
-"Default Shipping Address","Default Shipping Address",module,Magento_CustomerCustomAttributes
+"Default Billing Address","ค่าเริ่มต้นที่อยู่สำหรับออกใบเสร็จรับเงิน",module,Magento_CustomerCustomAttributes
+"Default Shipping Address","ค่าเริ่มต้นที่อยู่สำหรับจัดส่งสินค้า",module,Magento_CustomerCustomAttributes
 "Comma separated. Forbidden file extensions: %1.","Comma separated. Forbidden file extensions: %1.",module,Magento_CustomerCustomAttributes
 "The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.","The attribute couldn't be saved due to an error. Verify your information and try again. If the error persists, please try again later.",module,Magento_CustomerCustomAttributes
 "Please correct the value for file extensions.","Please correct the value for file extensions.",module,Magento_CustomerCustomAttributes
@@ -6455,9 +6455,9 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Store Phone Number","หมายเลขโทรศัพท์ของร้านค้า",module,Magento_Email
 "Store Hours","Store Hours",module,Magento_Email
 "Country","ประเทศ",module,Magento_Email
-"Region/State","Region/State",module,Magento_Email
+"Region/State","จังหวัด,module,Magento_Email
 "Zip/Postal Code","รหัสไปรษณีย์",module,Magento_Email
-"City","เมือง",module,Magento_Email
+"City","เขต/อำเภอ",module,Magento_Email
 "Street Address 1","Street Address 1",module,Magento_Email
 "Street Address 2","Street Address 2",module,Magento_Email
 "VAT Number","เลขประจำตัวผู้เสียภาษี",module,Magento_Email
@@ -7023,7 +7023,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "[WEBSITE]","[WEBSITE]",module,Magento_GiftRegistry
 "[STORE VIEW]","[STORE VIEW]",module,Magento_GiftRegistry
 "None","ไม่มี",module,Magento_GiftRegistry
-"New Address","New Address",module,Magento_GiftRegistry
+"New Address","เพิ่มที่อยู่ใหม่",module,Magento_GiftRegistry
 "Edit Gift Registry","Edit Gift Registry",module,Magento_GiftRegistry
 "Create Gift Registry","Create Gift Registry",module,Magento_GiftRegistry
 "State/Province","จังหวัด",module,Magento_GiftRegistry
@@ -7132,7 +7132,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Type","ชนิด",module,Magento_GiftRegistry
 "Owner","Owner",module,Magento_GiftRegistry
 "Created on","Created on",module,Magento_GiftRegistry
-"Shipping Address","Shipping Address",module,Magento_GiftRegistry
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_GiftRegistry
 "Shopping Cart Items","Shopping Cart Items",module,Magento_GiftRegistry
 "New Attribute","New Attribute",module,Magento_GiftRegistry
 "Input Type","Input Type",module,Magento_GiftRegistry
@@ -7148,7 +7148,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Address","Address",module,Magento_GiftRegistry
 "Street Address","ที่อยู่",module,Magento_GiftRegistry
 "Street Address %1","Street Address %1",module,Magento_GiftRegistry
-"City","เมือง",module,Magento_GiftRegistry
+"City","เขต/อำเภอ",module,Magento_GiftRegistry
 "Please select a region, state or province.","Please select a region, state or province.",module,Magento_GiftRegistry
 "Zip/Postal Code","รหัสไปรษณีย์",module,Magento_GiftRegistry
 "Country","ประเทศ",module,Magento_GiftRegistry
@@ -7234,7 +7234,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "The following items have been purchased from your gift registry ""%registry_name"":","The following items have been purchased from your gift registry ""%registry_name"":",module,Magento_GiftRegistry
 "You can sign in to your account to view more details about this gift registry.","You can sign in to your account to view more details about this gift registry.",module,Magento_GiftRegistry
 "Ship to Recipient Address","Ship to Recipient Address",module,Magento_GiftRegistry
-"Ship Here","Ship Here",module,Magento_GiftRegistry
+"Ship Here","จัดส่งที่นี่",module,Magento_GiftRegistry
 "Recipient Address","Recipient Address",module,Magento_GiftRegistry
 "Use gift registry shipping address","Use gift registry shipping address",module,Magento_GiftRegistry
 "The only place to change the number of gift registry items is on the Gift Registry Info page or directly in your cart.","The only place to change the number of gift registry items is on the Gift Registry Info page or directly in your cart.",module,Magento_GiftRegistry
@@ -7639,10 +7639,10 @@ e.g. var/export, var/import, var/export/some/dir",module,Magento_ImportExport
 "Instant Purchase","Instant Purchase",module,Magento_InstantPurchase
 "Instant Purchase Confirmation","Instant Purchase Confirmation",module,Magento_InstantPurchase
 "Are you sure you want to place order and pay?","Are you sure you want to place order and pay?",module,Magento_InstantPurchase
-"Shipping Address","Shipping Address",module,Magento_InstantPurchase
-"Billing Address","Billing Address",module,Magento_InstantPurchase
-"Payment Method","Payment Method",module,Magento_InstantPurchase
-"Shipping Method","Shipping Method",module,Magento_InstantPurchase
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_InstantPurchase
+"Billing Address","ที่อยู่สำหรับออกใบเสร็จรับเงิน",module,Magento_InstantPurchase
+"Payment Method","วิธีการชำระเงิน",module,Magento_InstantPurchase
+"Shipping Method","วิธีการจัดส่ง",module,Magento_InstantPurchase
 "Enabled","เปิดใช้งาน",module,Magento_InstantPurchase
 "Button Text","Button Text",module,Magento_InstantPurchase
 "Payment method with vault and instant purchase support should be enabled.","Payment method with vault and instant purchase support should be enabled.",module,Magento_InstantPurchase
@@ -8331,12 +8331,12 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Review Order - %1","Review Order - %1",module,Magento_Multishipping
 "Total","รวม",module,Magento_Multishipping
 "Total for this address","Total for this address",module,Magento_Multishipping
-"Shipping Methods","Shipping Methods",module,Magento_Multishipping
+"Shipping Methods","วิธีการจัดส่ง",module,Magento_Multishipping
 "Edit Address","แก้ไขที่อยู่จัดส่งสินค้า",module,Magento_Multishipping
-"Edit Billing Address","Edit Billing Address",module,Magento_Multishipping
-"Edit Shipping Address","Edit Shipping Address",module,Magento_Multishipping
-"Create Billing Address","Create Billing Address",module,Magento_Multishipping
-"Create Shipping Address","Create Shipping Address",module,Magento_Multishipping
+"Edit Billing Address","แก้ไขที่อยู่สำหรับออกใบเสร็จรับเงิน",module,Magento_Multishipping
+"Edit Shipping Address","แก้ไขที่อยู่จัดส่งสินค้า",module,Magento_Multishipping
+"Create Billing Address","สร้างที่อยู่สำหรับออกใบเสร็จรับเงิน",module,Magento_Multishipping
+"Create Shipping Address","สร้างที่อยู่จัดส่งสินค้า",module,Magento_Multishipping
 "Data saving problem","Data saving problem",module,Magento_Multishipping
 "We cannot open the overview page.","We cannot open the overview page.",module,Magento_Multishipping
 "Please agree to all Terms and Conditions before placing the order.","Please agree to all Terms and Conditions before placing the order.",module,Magento_Multishipping
@@ -8438,7 +8438,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Your order number is: ","Your order number is: ",module,Magento_Multishipping
 "We received your order!","We received your order!",module,Magento_Multishipping
 "We are unable to process your request. Please, try again later.","We are unable to process your request. Please, try again later.",module,Magento_Multishipping
-"Ship to:","Ship to:",module,Magento_Multishipping
+"Ship to:","จัดส่งที่:",module,Magento_Multishipping
 "Error:","Error:",module,Magento_Multishipping
 "The maximum quantity can't be more than %1 when shipping to multiple addresses. Change the quantity and try again.","The maximum quantity can't be more than %1 when shipping to multiple addresses. Change the quantity and try again.",module,Magento_Multishipping
 "Verify the shipping address information and continue.","Verify the shipping address information and continue.",module,Magento_Multishipping
@@ -8714,7 +8714,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Shipping Information","Shipping Information",module,Magento_NegotiableQuote
 "Shipping Methods & Price","Shipping Methods & Price",module,Magento_NegotiableQuote
 "Sorry, rates are not available for this quote.","Sorry, rates are not available for this quote.",module,Magento_NegotiableQuote
-"Shipping Address","Shipping Address",module,Magento_NegotiableQuote
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_NegotiableQuote
 "You have no shipping address for this quote.","You have no shipping address for this quote.",module,Magento_NegotiableQuote
 "Incl. Tax","รวมภาษี",module,Magento_NegotiableQuote
 "Proposed Shipping Price","Proposed Shipping Price",module,Magento_NegotiableQuote
@@ -8731,7 +8731,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Never","Never",module,Magento_NegotiableQuote
 "(Updated)","(Updated)",module,Magento_NegotiableQuote
 "(Added)","(Added)",module,Magento_NegotiableQuote
-"Shipping address","Shipping address",module,Magento_NegotiableQuote
+"Shipping address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_NegotiableQuote
 "Proposed shipping price","Proposed shipping price",module,Magento_NegotiableQuote
 "Shipping method","Shipping method",module,Magento_NegotiableQuote
 "removed","removed",module,Magento_NegotiableQuote
@@ -8811,7 +8811,7 @@ You can set a new expiration date if you wish.",module,Magento_NegotiableQuote
 "Apply","นำไปใช้",module,Magento_NegotiableQuote
 "See Balance","See Balance",module,Magento_NegotiableQuote
 "Edit","แก้ไข",module,Magento_NegotiableQuote
-"Ship Here","Ship Here",module,Magento_NegotiableQuote
+"Ship Here","จัดส่งที่นี่",module,Magento_NegotiableQuote
 "Update Catalog Prices","Update Catalog Prices",module,Magento_NegotiableQuote
 "If you proceed, catalog prices and cart discounts on this quote will be updated as per the latest changes in the catalog and the price rules.","If you proceed, catalog prices and cart discounts on this quote will be updated as per the latest changes in the catalog and the price rules.",module,Magento_NegotiableQuote
 "No ordered items","No ordered items",module,Magento_NegotiableQuote
@@ -9652,7 +9652,7 @@ If field is empty default value localhost will be saved.",module,Magento_PageCac
 "Please select a shipping method...","Please select a shipping method...",module,Magento_Paypal
 "Update Shipping Method","Update Shipping Method",module,Magento_Paypal
 "Sorry, no quotes are available for this order right now.","Sorry, no quotes are available for this order right now.",module,Magento_Paypal
-"Shipping Address","Shipping Address",module,Magento_Paypal
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_Paypal
 "Edit","แก้ไข",module,Magento_Paypal
 "Buy now with PayPal","Buy now with PayPal",module,Magento_Paypal
 "Edit Payment Information","Edit Payment Information",module,Magento_Paypal
@@ -11140,7 +11140,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Ratings Review Summary","Ratings Review Summary",module,Magento_Review
 "Be the first to review this product","Be the first to review this product",module,Magento_Review
 "Write Your Own Review","Write Your Own Review",module,Magento_Review
-"* Required Fields","ข้อมูลที่จำเป็นต้องกรอก",module,Magento_Review
+"* Required Fields","* ข้อมูลที่จำเป็นต้องกรอก",module,Magento_Review
 "You're reviewing:","You're reviewing:",module,Magento_Review
 "Your Rating","Your Rating",module,Magento_Review
 "%1 %2","%1 %2",module,Magento_Review
@@ -11520,9 +11520,9 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Only one RMA is available for printing","Only one RMA is available for printing",module,Magento_Rma
 "Return # ","Return # ",module,Magento_Rma
 "Return Date: ","Return Date: ",module,Magento_Rma
-"Order # ","Order # ",module,Magento_Rma
-"Ordered: ","Ordered: ",module,Magento_Rma
-"Shipping Address:","ที่อยู่จัดส่งสินค้า",module,Magento_Rma
+"Order # ","คำสั่งซื้อ # ",module,Magento_Rma
+"Ordered: ","สั่ง: ",module,Magento_Rma
+"Shipping Address:","ที่อยู่จัดส่งสินค้า:",module,Magento_Rma
 "Return Address:","Return Address:",module,Magento_Rma
 "Condition","Condition",module,Magento_Rma
 "Qty","จำนวน",module,Magento_Rma
@@ -11649,7 +11649,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Are you sure you want to delete this tracking information?","Are you sure you want to delete this tracking information?",module,Magento_Rma
 "Request Information","Request Information",module,Magento_Rma
 "Date Requested","Date Requested",module,Magento_Rma
-"Shipping Address","Shipping Address",module,Magento_Rma
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_Rma
 "This won't take long . . .","This won't take long . . .",module,Magento_Rma
 "Shipping and Tracking Information","Shipping and Tracking Information",module,Magento_Rma
 "Track this shipment","Track this shipment",module,Magento_Rma
@@ -11686,7 +11686,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Use Store Address","Use Store Address",module,Magento_Rma
 "Contact Name","Contact Name",module,Magento_Rma
 "Street Address","ที่อยู่",module,Magento_Rma
-"City","เมือง",module,Magento_Rma
+"City","เขต/อำเภอ",module,Magento_Rma
 "State/Province","จังหวัด",module,Magento_Rma
 "ZIP/Postal Code","รหัสไปรษณีย์",module,Magento_Rma
 "Country","ประเทศ",module,Magento_Rma
@@ -11771,7 +11771,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "is undefined","is undefined",module,Magento_Rule
 "Credit Memos","Credit Memos",module,Magento_Sales
 "Orders","รายการสั่งซื้อ",module,Magento_Sales
-"Invoices","Invoices",module,Magento_Sales
+"Invoices","บิล",module,Magento_Sales
 "We can't get the order instance right now.","We can't get the order instance right now.",module,Magento_Sales
 "Create New Order","Create New Order",module,Magento_Sales
 "Save Order Address","Save Order Address",module,Magento_Sales
@@ -11799,7 +11799,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Create New Order in %1","Create New Order in %1",module,Magento_Sales
 "Create New Order for %1","Create New Order for %1",module,Magento_Sales
 "Create New Order for New Customer","Create New Order for New Customer",module,Magento_Sales
-"Items Ordered","Items Ordered",module,Magento_Sales
+"Items Ordered","รายการที่สั่ง",module,Magento_Sales
 "This product is disabled.","This product is disabled.",module,Magento_Sales
 "Buy %1 for price %2","Buy %1 for price %2",module,Magento_Sales
 "Item ordered qty","Item ordered qty",module,Magento_Sales
@@ -11818,8 +11818,8 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Price","ราคา",module,Magento_Sales
 "Select","Select",module,Magento_Sales
 "Quantity","จำนวน",module,Magento_Sales
-"Shipping Address","Shipping Address",module,Magento_Sales
-"Shipping Method","Shipping Method",module,Magento_Sales
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_Sales
+"Shipping Method","วิธีการจัดส่ง",module,Magento_Sales
 "Update Changes","Update Changes",module,Magento_Sales
 "Shopping Cart","ตระกร้าสินค้า",module,Magento_Sales
 "Are you sure you want to delete all items from shopping cart?","Are you sure you want to delete all items from shopping cart?",module,Magento_Sales
@@ -11905,7 +11905,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Invoice and Ship","Invoice and Ship",module,Magento_Sales
 "Invoice","Invoice",module,Magento_Sales
 "Ship","Ship",module,Magento_Sales
-"Reorder","Reorder",module,Magento_Sales
+"Reorder","สั่งซื้ออีกครั้ง",module,Magento_Sales
 "Order # %1 %2 | %3","Order # %1 %2 | %3",module,Magento_Sales
 "This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.",module,Magento_Sales
 "Are you sure? This order will be canceled and a new one will be created instead.","Are you sure? This order will be canceled and a new one will be created instead.",module,Magento_Sales
@@ -11937,7 +11937,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Show Actual Values","Show Actual Values",module,Magento_Sales
 "New Order RSS","New Order RSS",module,Magento_Sales
 "Subtotal","ผลรวมย่อย",module,Magento_Sales
-"Shipping & Handling","Shipping & Handling",module,Magento_Sales
+"Shipping & Handling","ค่าจัดส่ง",module,Magento_Sales
 "Discount (%1)","Discount (%1)",module,Magento_Sales
 "Discount","ส่วนลด",module,Magento_Sales
 "Grand Total","รวมทั้งหมด",module,Magento_Sales
@@ -11949,7 +11949,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Value","Value",module,Magento_Sales
 "We found an invalid entity model.","We found an invalid entity model.",module,Magento_Sales
 "Order # %1","Order # %1",module,Magento_Sales
-"Back to My Orders","Back to My Orders",module,Magento_Sales
+"Back to My Orders","กลับไปที่รายการคำสั่งซื้อ",module,Magento_Sales
 "View Another Order","View Another Order",module,Magento_Sales
 "About Your Refund","About Your Refund",module,Magento_Sales
 "My Orders","My Orders",module,Magento_Sales
@@ -12055,8 +12055,8 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "We can't find this wish list.","We can't find this wish list.",module,Magento_Sales
 "We could not add a product to cart by the ID ""%1"".","We could not add a product to cart by the ID ""%1"".",module,Magento_Sales
 "There is an error in one of the option rows.","There is an error in one of the option rows.",module,Magento_Sales
-"Shipping Address: ","Shipping Address: ",module,Magento_Sales
-"Billing Address: ","Billing Address: ",module,Magento_Sales
+"Shipping Address: ","ที่อยู่จัดส่ง: ",module,Magento_Sales
+"Billing Address: ","ที่อยู่ออกบิล: ",module,Magento_Sales
 "Please specify order items.","Please specify order items.",module,Magento_Sales
 "Please specify a shipping method.","Please specify a shipping method.",module,Magento_Sales
 "Please specify a payment method.","Please specify a payment method.",module,Magento_Sales
@@ -12160,7 +12160,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Order # ","Order # ",module,Magento_Sales
 "Order Date: ","Order Date: ",module,Magento_Sales
 "Sold to:","Sold to:",module,Magento_Sales
-"Ship to:","Ship to:",module,Magento_Sales
+"Ship to:","จัดส่งที่:",module,Magento_Sales
 "Payment Method:","วิธีการชำระเงิน:",module,Magento_Sales
 "Shipping Method:","วิธีการจัดส่ง:",module,Magento_Sales
 "Total Shipping Charges","Total Shipping Charges",module,Magento_Sales
@@ -12215,7 +12215,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 """Creditmemo Document Validation Error(s):\n"" .","""Creditmemo Document Validation Error(s):\n"" .",module,Magento_Sales
 "Could not save a Creditmemo, see error log for details","Could not save a Creditmemo, see error log for details",module,Magento_Sales
 "We cannot determine the field name.","We cannot determine the field name.",module,Magento_Sales
-"City","เมือง",module,Magento_Sales
+"City","เขต/อำเภอ",module,Magento_Sales
 "Company","Company",module,Magento_Sales
 "Country","ประเทศ",module,Magento_Sales
 "Email","อีเมล",module,Magento_Sales
@@ -12248,14 +12248,14 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Could not save a shipment, see error log for details","Could not save a shipment, see error log for details",module,Magento_Sales
 "VAT Request Identifier","VAT Request Identifier",module,Magento_Sales
 "VAT Request Date","VAT Request Date",module,Magento_Sales
-"Pending Payment","Pending Payment",module,Magento_Sales
-"Processing","Processing",module,Magento_Sales
-"On Hold","On Hold",module,Magento_Sales
-"Complete","Complete",module,Magento_Sales
-"Closed","Closed",module,Magento_Sales
-"Suspected Fraud","Suspected Fraud",module,Magento_Sales
-"Payment Review","Payment Review",module,Magento_Sales
-"New","New",module,Magento_Sales
+"Pending Payment","รอการชำระเงิน",module,Magento_Sales
+"Processing","กำลังดำเนินการ",module,Magento_Sales
+"On Hold","ระงับชั่วคราว",module,Magento_Sales
+"Complete","สำเร็จ",module,Magento_Sales
+"Closed","ยกเลิก",module,Magento_Sales
+"Suspected Fraud","สงสัยว่ามีการทุจริต",module,Magento_Sales
+"Payment Review","รอตรวจสอบการชำระเงิน",module,Magento_Sales
+"New","ใหม่",module,Magento_Sales
 "Product doesn't exist","Product doesn't exist",module,Magento_Sales
 "test message","test message",module,Magento_Sales
 "Email has not been sent","Email has not been sent",module,Magento_Sales
@@ -12341,7 +12341,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "From:","From:",module,Magento_Sales
 "To:","To:",module,Magento_Sales
 "Message:","Message:",module,Magento_Sales
-"Shipping &amp; Handling","Shipping &amp; Handling",module,Magento_Sales
+"Shipping &amp; Handling","ค่าจัดส่ง",module,Magento_Sales
 "Gift Options","Gift Options",module,Magento_Sales
 "Create Shipment","Create Shipment",module,Magento_Sales
 "Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.","Invoice and shipment types do not match for some items on this order. You can create a shipment only after creating the invoice.",module,Magento_Sales
@@ -12413,7 +12413,7 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Print Invoice","Print Invoice",module,Magento_Sales
 "Qty Invoiced","Qty Invoiced",module,Magento_Sales
 "Close","ปิด",module,Magento_Sales
-"About Your Order","About Your Order",module,Magento_Sales
+"About Your Order","ข้อมูลคำสั่งซื้อของคุณ",module,Magento_Sales
 "<span class=""label"">Order Date:</span> %1","<span class=""label"">Order Date:</span> %1",module,Magento_Sales
 "Refund #%1","Refund #%1",module,Magento_Sales
 "Shipment #%1","Shipment #%1",module,Magento_Sales
@@ -12663,9 +12663,9 @@ target=""_blank"">DevDocs' Release Information</a>.,module,Magento_ReleaseNotifi
 "Status","สถานะ",module,Magento_SalesArchive
 "Refunded","Refunded",module,Magento_SalesArchive
 "Order Status","Order Status",module,Magento_SalesArchive
-"Billing Address","Billing Address",module,Magento_SalesArchive
-"Shipping Address","Shipping Address",module,Magento_SalesArchive
-"Customer Name","Customer Name",module,Magento_SalesArchive
+"Billing Address","ที่อยู่สำหรับออกใบเสร็จรับเงิน",module,Magento_SalesArchive
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_SalesArchive
+"Customer Name","ชื่อลูกค้า",module,Magento_SalesArchive
 "Email","อีเมล",module,Magento_SalesArchive
 "Customer Group","Customer Group",module,Magento_SalesArchive
 "Payment Method","Payment Method",module,Magento_SalesArchive
@@ -13249,7 +13249,7 @@ Usage limit enforced for logged in customers only.,module,Magento_SalesRule
 "Remove","ลบ",module,Magento_SendFriend
 "Name","ชื่อ",module,Magento_SendFriend
 "Email","อีเมล",module,Magento_SendFriend
-"* Required Fields","ข้อมูลที่จำเป็นต้องกรอก",module,Magento_SendFriend
+"* Required Fields","* ข้อมูลที่จำเป็นต้องกรอก",module,Magento_SendFriend
 "Sender","Sender",module,Magento_SendFriend
 "Message","ข้อ​ความ",module,Magento_SendFriend
 "Invitee","Invitee",module,Magento_SendFriend
@@ -13629,13 +13629,13 @@ configuring in shared catalogs will not be restricted to customers.",module,Mage
 "Country","ประเทศ",module,Magento_Shipping
 "Region/State","Region/State",module,Magento_Shipping
 "ZIP/Postal Code","รหัสไปรษณีย์",module,Magento_Shipping
-"City","เมือง",module,Magento_Shipping
+"City","เขต/อำเภอ",module,Magento_Shipping
 "Street Address","ที่อยู่",module,Magento_Shipping
 "Street Address Line 2","ที่อยู่ เพิ่มเติม",module,Magento_Shipping
 "Shipping Policy Parameters","Shipping Policy Parameters",module,Magento_Shipping
 "Apply custom Shipping Policy","Apply custom Shipping Policy",module,Magento_Shipping
 "Shipping Policy","Shipping Policy",module,Magento_Shipping
-"Shipping Methods","Shipping Methods",module,Magento_Shipping
+"Shipping Methods","วิธีการจัดส่ง",module,Magento_Shipping
 "Track your order","Track your order",module,Magento_Shipping
 "Track All Shipments","Track All Shipments",module,Magento_Shipping
 "You sent the shipment.","You sent the shipment.",module,Magento_Shipping
@@ -14049,7 +14049,7 @@ Select a different range to add a new Future Update.",module,Magento_Staging
 "Partial Refund Offline","Partial Refund Offline",module,Magento_Support
 "Payments Functionality Matrix","Payments Functionality Matrix",module,Magento_Support
 "Payment Methods","Payment Methods",module,Magento_Support
-"Shipping Methods","Shipping Methods",module,Magento_Support
+"Shipping Methods","วิธีการจัดส่ง",module,Magento_Support
 "Job Code","Job Code",module,Magento_Support
 "Cron Expression","Cron Expression",module,Magento_Support
 "Run Class","Run Class",module,Magento_Support
@@ -14351,7 +14351,7 @@ Select a different range to add a new Future Update.",module,Magento_Staging
 "'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.","'*' - matches any; 'xyz*' - matches any that begins on 'xyz' and are not longer than %1.",module,Magento_Tax
 "Range From","Range From",module,Magento_Tax
 "Range To","Range To",module,Magento_Tax
-"State","State",module,Magento_Tax
+"State","จังหวัด",module,Magento_Tax
 "Country","ประเทศ",module,Magento_Tax
 "Rate Percent","Rate Percent",module,Magento_Tax
 "Tax Titles","Tax Titles",module,Magento_Tax
@@ -14424,8 +14424,8 @@ Select a different range to add a new Future Update.",module,Magento_Staging
 "You cannot delete this tax class because it is used in existing %1(s).","You cannot delete this tax class because it is used in existing %1(s).",module,Magento_Tax
 "Custom price if available","Custom price if available",module,Magento_Tax
 "Original price only","Original price only",module,Magento_Tax
-"Shipping Address","Shipping Address",module,Magento_Tax
-"Billing Address","Billing Address",module,Magento_Tax
+"Shipping Address","ที่อยู่สำหรับจัดส่งสินค้า",module,Magento_Tax
+"Billing Address","ที่อยู่สำหรับออกใบเสร็จรับเงิน",module,Magento_Tax
 "Shipping Origin","Shipping Origin",module,Magento_Tax
 "No (price without tax)","No (price without tax)",module,Magento_Tax
 "Yes (only price with tax)","Yes (only price with tax)",module,Magento_Tax
@@ -14875,7 +14875,7 @@ than a customer might expect. ",module,Magento_Tax
 "Please enter a valid email address (Ex: johndoe@domain.com).","Please enter a valid email address (Ex: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Please enter 6 or more characters. Leading and trailing spaces will be ignored.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Please enter 7 or more characters, using both numeric and alphabetic.",module,Magento_Ui
-"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.",module,Magento_Ui
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","ช่องนี้ต้องมีความยาวตัวอักษรมากกว่าหรือเท่ากับ %1 ตัว เว้นวรรคที่อยู่ด้านหน้าและด้านหลังจะถูกตัดออก",module,Magento_Ui
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Please enter a valid URL. Protocol is required (http://, https:// or ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Please enter a valid URL. For example http://www.example.com or www.example.com.",module,Magento_Ui
@@ -15282,7 +15282,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "We'll email you a link to reset your password.","We'll email you a link to reset your password.",module,Magento_User
 "Please correct this email address:","Please correct this email address:",module,Magento_User
 "Please enter an email address.","Please enter an email address.",module,Magento_User
-"You updated your password.","You updated your password.",module,Magento_User
+"You updated your password.","เปลี่ยนรหัสผ่านเรียบร้อยแล้ว",module,Magento_User
 "Locked Users","Locked Users",module,Magento_User
 "Unlocked %1 user(s).","Unlocked %1 user(s).",module,Magento_User
 "System","ระบบ",module,Magento_User
@@ -16118,7 +16118,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Product","สินค้า",module,Magento_Wishlist
 "Back","ย้อนกลับ",module,Magento_Wishlist
 "Wish List is empty now.","Wish List is empty now.",module,Magento_Wishlist
-"* Required Fields","ข้อมูลที่จำเป็นต้องกรอก",module,Magento_Wishlist
+"* Required Fields","* ข้อมูลที่จำเป็นต้องกรอก",module,Magento_Wishlist
 "Sharing Information","Sharing Information",module,Magento_Wishlist
 "Email addresses, separated by commas","Email addresses, separated by commas",module,Magento_Wishlist
 "Check here to link an RSS feed to your Wish List.","Check here to link an RSS feed to your Wish List.",module,Magento_Wishlist
@@ -16219,7 +16219,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Your payment has been successfully processed by our shop system.","Your payment has been successfully processed by our shop system.",module,Magento_Worldpay
 "Payment was canceled","Payment was canceled",module,Magento_Worldpay
 "Please ","Please ",module,Magento_Worldpay
-"continue shopping","continue shopping",module,Magento_Worldpay
+"continue shopping","เลือกซื้อสินค้าต่อ",module,Magento_Worldpay
 "Transaction has been canceled","Transaction has been canceled",module,Magento_Worldpay
 "Transaction has been declined","Transaction has been declined",module,Magento_Worldpay
 "The response type is incorrect. Verify the type and try again.","The response type is incorrect. Verify the type and try again.",module,Magento_Worldpay
@@ -16259,7 +16259,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "<a href=%url_about_us>About Us</a>","<a href=%url_about_us>About Us</a>",theme,frontend/Magento/luma
 "<a href=url_customer_service>Customer Service</a>","<a href=url_customer_service>Customer Service</a>",theme,frontend/Magento/luma
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone"">%store_phone</a>",theme,frontend/Magento/luma
-"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
+"Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","เวลาทำการ:<br /><span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Credit memo for your %store_name order","Credit memo for your %store_name order",theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","Thank you for your order from %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","You can check the status of your order by <a href=""%account_url"">logging into your account</a>.",theme,frontend/Magento/luma
@@ -16344,7 +16344,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Please enter a valid email address (Ex: johndoe@domain.com).","Please enter a valid email address (Ex: johndoe@domain.com).",lib,web
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Please enter 6 or more characters. Leading and trailing spaces will be ignored.",lib,web
 "Please enter 7 or more characters, using both numeric and alphabetic.","Please enter 7 or more characters, using both numeric and alphabetic.",lib,web
-"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.",lib,web
+"Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","ช่องนี้ต้องมีความยาวตัวอักษรมากกว่าหรือเท่ากับ %1 ตัว เว้นวรรคที่อยู่ด้านหน้าและด้านหลังจะถูกตัดออก",lib,web
 "Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",lib,web
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Please enter a valid URL. Protocol is required (http://, https:// or ftp://).",lib,web
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Please enter a valid URL. For example http://www.example.com or www.example.com.",lib,web
