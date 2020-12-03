@@ -1028,7 +1028,7 @@ href=""https://dashboard.rjmetrics.com/v2/magento/signup/"">Magento BI Essential
 "Invalid security or form key. Please refresh the page.","Invalid security or form key. Please refresh the page.",module,Magento_Backend
 "An item needs to be selected. Select and try again.","An item needs to be selected. Select and try again.",module,Magento_Backend
 "These cache type(s) don't exist: %1","These cache type(s) don't exist: %1",module,Magento_Backend
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_Backend
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","ข้อมูลบัญชีที่ใช้เข้าสู่ระบบอาจไม่ถูกต้อง หรือบัญชีอาจถูกระงับชั่วคราว กรุณาลองใหม่ในภายหลัง",module,Magento_Backend
 "An authentication error occurred. Verify and try again.","An authentication error occurred. Verify and try again.",module,Magento_Backend
 "The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.","The Admin session lifetime is invalid. Set the lifetime to 31536000 seconds (one year) or shorter and try again.",module,Magento_Backend
 "The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.","The Admin session lifetime is invalid. Set the lifetime to 60 seconds or longer and try again.",module,Magento_Backend
@@ -2762,7 +2762,7 @@ Time in seconds between the widget updates.,module,Magento_Catalog
 "We can't rebuild the index for an undefined product.","We can't rebuild the index for an undefined product.",module,Magento_CatalogInventory
 "Could not rebuild index for empty products array","Could not rebuild index for empty products array",module,Magento_CatalogInventory
 "The stock item for Product is not valid.","The stock item for Product is not valid.",module,Magento_CatalogInventory
-"This product is out of stock.","This product is out of stock.",module,Magento_CatalogInventory
+"This product is out of stock.","สินค้าหมด",module,Magento_CatalogInventory
 "Some of the products are out of stock.","Some of the products are out of stock.",module,Magento_CatalogInventory
 "The stock item for Product in option is not valid.","The stock item for Product in option is not valid.",module,Magento_CatalogInventory
 "Undefined product type","Undefined product type",module,Magento_CatalogInventory
@@ -4903,7 +4903,7 @@ new products will be created. Use this step to customize images and price for yo
 "Please enter a password with at most %1 characters.","Please enter a password with at most %1 characters.",module,Magento_Customer
 "Please enter a password with at least %1 characters.","Please enter a password with at least %1 characters.",module,Magento_Customer
 "The password can't begin or end with a space.","The password can't begin or end with a space.",module,Magento_Customer
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",module,Magento_Customer
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","รหัสผ่านต้องมีชนิดของตัวอักษรแตกต่างกันอย่างน้อย %1 ชนิด โดยชนิดของตัวอักษรมีดังนี้ ตัวพิมพ์เล็ก, ตัวพิมพ์ใหญ่, ตัวเลข, อักขระพิเศษ",module,Magento_Customer
 "Password cannot be the same as email address.","Password cannot be the same as email address.",module,Magento_Customer
 "This customer already exists in this store.","This customer already exists in this store.",module,Magento_Customer
 "A customer with the same email already exists in an associated website.","A customer with the same email already exists in an associated website.",module,Magento_Customer
@@ -5294,7 +5294,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 " Example: "," Example: ",module,Magento_Customer
 "If you believe it is the right one you can ignore this notice.","If you believe it is the right one you can ignore this notice.",module,Magento_Customer
 "Invalid Form Key. Please refresh the page.","รหัสฟอร์มไม่ถูกต้อง กรุณารีเฟรชหน้า",module,Magento_Customer
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_Customer
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","ข้อมูลบัญชีที่ใช้เข้าสู่ระบบอาจไม่ถูกต้อง หรือบัญชีอาจถูกระงับชั่วคราว กรุณาลองใหม่ในภายหลัง",module,Magento_Customer
 "The password doesn't match this account. Verify the password and try again.","The password doesn't match this account. Verify the password and try again.",module,Magento_Customer
 "The email address is incorrect. Verify the email address and try again.","The email address is incorrect. Verify the email address and try again.",module,Magento_Customer
 "The customer ID isn't defined.","The customer ID isn't defined.",module,Magento_Customer
@@ -7085,7 +7085,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "Please enter correct search options.","Please enter correct search options.",module,Magento_GiftRegistry
 "Please enter at least 2 letters of the first name.","Please enter at least 2 letters of the first name.",module,Magento_GiftRegistry
 "Please enter at least 2 letters of the last name.","Please enter at least 2 letters of the last name.",module,Magento_GiftRegistry
-"Please enter a valid email address.","Please enter a valid email address.",module,Magento_GiftRegistry
+"Please enter a valid email address.","กรุณากรอกอีเมลให้ถูกต้อง",module,Magento_GiftRegistry
 "Please enter a gift registry ID.","Please enter a gift registry ID.",module,Magento_GiftRegistry
 "Please enter the quantity of items to add to cart.","Please enter the quantity of items to add to cart.",module,Magento_GiftRegistry
 "We can't add this item to your shopping cart right now.","We can't add this item to your shopping cart right now.",module,Magento_GiftRegistry
@@ -7121,7 +7121,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "New","New",module,Magento_GiftRegistry
 "Please enter the first name.","Please enter the first name.",module,Magento_GiftRegistry
 "Please enter the last name.","Please enter the last name.",module,Magento_GiftRegistry
-"Please enter a valid email address(for example, daniel@x.com).","Please enter a valid email address(for example, daniel@x.com).",module,Magento_GiftRegistry
+"Please enter a valid email address(for example, daniel@x.com).","กรุณากรอกอีเมลให้ถูกต้อง(ตัวอย่าง, daniel@x.com).",module,Magento_GiftRegistry
 "Ship to the recipient's address.","Ship to the recipient's address.",module,Magento_GiftRegistry
 "-- All --","-- All --",module,Magento_GiftRegistry
 "Unknown gift registry identifier","Unknown gift registry identifier",module,Magento_GiftRegistry
@@ -7430,7 +7430,7 @@ Email template chosen based on theme fallback when ""Default"" option is selecte
 "No options of this product are available.","No options of this product are available.",module,Magento_GroupedProduct
 "There are no grouped products.","There are no grouped products.",module,Magento_GroupedProduct
 "Default Qty","Default Qty",module,Magento_GroupedProduct
-"Starting at","Starting at",module,Magento_GroupedProduct
+"Starting at","ราคาเริ่มต้น",module,Magento_GroupedProduct
 "Availability","Availability",module,Magento_GroupedProduct
 "In stock","In stock",module,Magento_GroupedProduct
 "Grouped product items","Grouped product items",module,Magento_GroupedProduct
@@ -7790,7 +7790,7 @@ e.g. var/export, var/import, var/export/some/dir",module,Magento_ImportExport
 "Period of time in seconds after which account will be unlocked.","Period of time in seconds after which account will be unlocked.",module,Magento_Integration
 "The integrations created in the config file can't be edited.","The integrations created in the config file can't be edited.",module,Magento_Integration
 "A consumer with ""%1"" ID doesn't exist. Verify the ID and try again.","A consumer with ""%1"" ID doesn't exist. Verify the ID and try again.",module,Magento_Integration
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_Integration
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","ข้อมูลบัญชีที่ใช้เข้าสู่ระบบอาจไม่ถูกต้อง หรือบัญชีอาจถูกระงับชั่วคราว กรุณาลองใหม่ในภายหลัง",module,Magento_Integration
 "The tokens couldn't be revoked.","The tokens couldn't be revoked.",module,Magento_Integration
 "An error occurred during the attempt to grant permissions. For details, see the exceptions log.","An error occurred during the attempt to grant permissions. For details, see the exceptions log.",module,Magento_Integration
 """%fieldName"" is required. Enter and try again.","""%fieldName"" จำเป็นต้องกรอก กรุณากรอกและลองอีกครั้ง",module,Magento_Integration
@@ -8235,7 +8235,7 @@ it will make no affect on Price filter.",module,Magento_LayeredNavigation
 "Owner Email","Owner Email",module,Magento_MultipleWishlist
 "%1's Wish List","%1's Wish List",module,Magento_MultipleWishlist
 "%1's Wish List (%2)","%1's Wish List (%2)",module,Magento_MultipleWishlist
-"Please enter a valid email address.","Please enter a valid email address.",module,Magento_MultipleWishlist
+"Please enter a valid email address.","กรุณากรอกอีเมลให้ถูกต้อง",module,Magento_MultipleWishlist
 "Please enter at least 2 letters of the first name.","Please enter at least 2 letters of the first name.",module,Magento_MultipleWishlist
 "Please enter at least 2 letters of the last name.","Please enter at least 2 letters of the last name.",module,Magento_MultipleWishlist
 "Sign in to edit wish lists.","Sign in to edit wish lists.",module,Magento_MultipleWishlist
@@ -8988,7 +8988,7 @@ information on installing the agent is available <a target=""_blank"" href=""%1"
 "This is an invalid subscription ID.","This is an invalid subscription ID.",module,Magento_Newsletter
 "This email address is already assigned to another user.","This email address is already assigned to another user.",module,Magento_Newsletter
 "Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.","Sorry, but the administrator denied subscription for guests. Please <a href=""%1"">register</a>.",module,Magento_Newsletter
-"Please enter a valid email address.","Please enter a valid email address.",module,Magento_Newsletter
+"Please enter a valid email address.","กรุณากรอกอีเมลให้ถูกต้อง",module,Magento_Newsletter
 "This email address is already subscribed.","This email address is already subscribed.",module,Magento_Newsletter
 "The confirmation request has been sent.","The confirmation request has been sent.",module,Magento_Newsletter
 "Thank you for your subscription.","Thank you for your subscription.",module,Magento_Newsletter
@@ -14872,11 +14872,11 @@ than a customer might expect. ",module,Magento_Tax
 "Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.",module,Magento_Ui
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.",module,Magento_Ui
 "Please enter a valid fax number (Ex: 123-456-7890).","Please enter a valid fax number (Ex: 123-456-7890).",module,Magento_Ui
-"Please enter a valid email address (Ex: johndoe@domain.com).","Please enter a valid email address (Ex: johndoe@domain.com).",module,Magento_Ui
+"Please enter a valid email address (Ex: johndoe@domain.com).","กรุณากรอกอีเมลให้ถูกต้อง (ตัวอย่าง: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Please enter 6 or more characters. Leading and trailing spaces will be ignored.",module,Magento_Ui
 "Please enter 7 or more characters, using both numeric and alphabetic.","Please enter 7 or more characters, using both numeric and alphabetic.",module,Magento_Ui
 "Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","ช่องนี้ต้องมีความยาวตัวอักษรมากกว่าหรือเท่ากับ %1 ตัว เว้นวรรคที่อยู่ด้านหน้าและด้านหลังจะถูกตัดออก",module,Magento_Ui
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",module,Magento_Ui
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","รหัสผ่านต้องมีชนิดของตัวอักษรแตกต่างกันอย่างน้อย %1 ชนิด โดยชนิดของตัวอักษรมีดังนี้ ตัวพิมพ์เล็ก, ตัวพิมพ์ใหญ่, ตัวเลข, อักขระพิเศษ",module,Magento_Ui
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Please enter a valid URL. Protocol is required (http://, https:// or ftp://).",module,Magento_Ui
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Please enter a valid URL. For example http://www.example.com or www.example.com.",module,Magento_Ui
 "Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Please enter a valid XML-identifier (Ex: something_1, block5, id-4).",module,Magento_Ui
@@ -15375,7 +15375,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "New admin user '%user_name' created","New admin user '%user_name' created",module,Magento_User
 "A new admin account was created for %first_name, %last_name using %email.","A new admin account was created for %first_name, %last_name using %email.",module,Magento_User
 "The password entered for the current user is invalid. Verify the password and try again.","The password entered for the current user is invalid. Verify the password and try again.",module,Magento_User
-"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",module,Magento_User
+"The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.","ข้อมูลบัญชีที่ใช้เข้าสู่ระบบอาจไม่ถูกต้อง หรือบัญชีอาจถูกระงับชั่วคราว กรุณาลองใหม่ในภายหลัง",module,Magento_User
 "More permissions are needed to access this.","More permissions are needed to access this.",module,Magento_User
 "The password reset token is incorrect. Verify the token and try again.","The password reset token is incorrect. Verify the token and try again.",module,Magento_User
 "Your account is temporarily disabled. Please try again later.","Your account is temporarily disabled. Please try again later.",module,Magento_User
@@ -16054,7 +16054,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Message length must not exceed %1 symbols","Message length must not exceed %1 symbols",module,Magento_Wishlist
 "Please enter an email address.","Please enter an email address.",module,Magento_Wishlist
 "This wish list can be shared %1 more times.","This wish list can be shared %1 more times.",module,Magento_Wishlist
-"Please enter a valid email address.","Please enter a valid email address.",module,Magento_Wishlist
+"Please enter a valid email address.","กรุณากรอกอีเมลให้ถูกต้อง",module,Magento_Wishlist
 "Your wish list has been shared.","Your wish list has been shared.",module,Magento_Wishlist
 "We can't delete item from Wish List right now.","We can't delete item from Wish List right now.",module,Magento_Wishlist
 "Can't save description %1","Can't save description %1",module,Magento_Wishlist
@@ -16341,11 +16341,11 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.","Please use only letters (a-z or A-Z), numbers (0-9), spaces and ""#"" in this field.",lib,web
 "Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.","Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.",lib,web
 "Please enter a valid fax number (Ex: 123-456-7890).","Please enter a valid fax number (Ex: 123-456-7890).",lib,web
-"Please enter a valid email address (Ex: johndoe@domain.com).","Please enter a valid email address (Ex: johndoe@domain.com).",lib,web
+"Please enter a valid email address (Ex: johndoe@domain.com).","กรุณากรอกอีเมลให้ถูกต้อง (ตัวอย่าง: johndoe@domain.com).",lib,web
 "Please enter 6 or more characters. Leading and trailing spaces will be ignored.","Please enter 6 or more characters. Leading and trailing spaces will be ignored.",lib,web
 "Please enter 7 or more characters, using both numeric and alphabetic.","Please enter 7 or more characters, using both numeric and alphabetic.",lib,web
 "Minimum length of this field must be equal or greater than %1 symbols. Leading and trailing spaces will be ignored.","ช่องนี้ต้องมีความยาวตัวอักษรมากกว่าหรือเท่ากับ %1 ตัว เว้นวรรคที่อยู่ด้านหน้าและด้านหลังจะถูกตัดออก",lib,web
-"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.",lib,web
+"Minimum of different classes of characters in password is %1. Classes of characters: Lower Case, Upper Case, Digits, Special Characters.","รหัสผ่านต้องมีชนิดของตัวอักษรแตกต่างกันอย่างน้อย %1 ชนิด โดยชนิดของตัวอักษรมีดังนี้ ตัวพิมพ์เล็ก, ตัวพิมพ์ใหญ่, ตัวเลข, อักขระพิเศษ",lib,web
 "Please enter a valid URL. Protocol is required (http://, https:// or ftp://).","Please enter a valid URL. Protocol is required (http://, https:// or ftp://).",lib,web
 "Please enter a valid URL. For example http://www.example.com or www.example.com.","Please enter a valid URL. For example http://www.example.com or www.example.com.",lib,web
 "Please enter a valid XML-identifier (Ex: something_1, block5, id-4).","Please enter a valid XML-identifier (Ex: something_1, block5, id-4).",lib,web
@@ -16391,7 +16391,7 @@ formElements/*[name(.)=../../@formElement]/settings/title,module,Magento_Ui
 "Admin is a required field in each row.","Admin is a required field in each row.",lib,web
 "Password cannot be the same as email address.","Password cannot be the same as email address.",lib,web
 "Please fix this field.","Please fix this field.",lib,web
-"Please enter a valid email address.","Please enter a valid email address.",lib,web
+"Please enter a valid email address.","กรุณากรอกอีเมลให้ถูกต้อง",lib,web
 "Please enter a valid URL.","Please enter a valid URL.",lib,web
 "Please enter a valid date (ISO).","Please enter a valid date (ISO).",lib,web
 "Please enter only digits.","Please enter only digits.",lib,web
